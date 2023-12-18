@@ -1,0 +1,661 @@
+/* Desktop 1 */
+.parent-a {
+  background-color: grey;
+  width: 1440px;
+  height: 1024px;
+}
+
+.child-a1 {
+  background-color: aqua;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+}
+
+.child-a2 {
+  background-color: green;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+}
+
+.child-a3 {
+  background-color: yellow;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+}
+
+/* Desktop 2 */
+.parent-b {
+  background-color: grey;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.child-b1 {
+  background-color: aqua;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+}
+
+.child-b2 {
+  background-color: green;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.child-b3 {
+  background-color: yellow;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+/* Desktop 3 */
+.parent-c {
+  background-color: grey;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.child-c1 {
+  background-color: aqua;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+}
+
+.child-c2 {
+  background-color: green;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 300px;
+  left: 300px;
+}
+
+.child-c3 {
+  background-color: yellow;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 600px;
+  left: 600px;
+}
+
+/* Desktop 4 */
+.parent-d {
+  background-color: grey;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.child-d1 {
+  background-color: aqua;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  z-index: 3;
+}
+
+.child-d2 {
+  background-color: green;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 150px;
+  left: 150px;
+  z-index: 2;
+}
+
+.child-d3 {
+  background-color: yellow;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 300px;
+  left: 300px;
+  z-index: 1;
+}
+
+/* Desktop 5 */
+.parent-e {
+  background-color: grey;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.child-e1 {
+  background-color: aqua;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 30px;
+  left: 270px;
+}
+
+.child-e2 {
+  background-color: green;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 30px;
+  left: 570px;
+}
+
+.child-e3 {
+  background-color: yellow;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 30px;
+  left: 870px;
+}
+
+/* Desktop 6 */
+.parent-g {
+  background-color: grey;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.child-g1 {
+  background-color: aqua;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 30px;
+  left: 30px;
+}
+
+.child-g2 {
+  background-color: green;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 30px;
+  left: 570px;
+}
+
+.child-g3 {
+  background-color: yellow;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 30px;
+  left: 1110px;
+}
+
+/* Desktop 7 */
+.parent-h {
+  background-color: grey;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.child-h1 {
+  background-color: aqua;
+  width: 720px;
+  height: 300px;
+  position: absolute;
+}
+
+.child-h2 {
+  background-color: green;
+  width: 720px;
+  height: 300px;
+  position: absolute;
+  left: 720px;
+}
+
+.child-h3 {
+  background-color: yellow;
+  position: absolute;
+  width: 1440px;
+  height: 300px;
+  top: 300px;
+}
+
+/* Desktop 8 */
+.parent-i {
+  background-color: grey;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.child-i1 {
+  background-color: aqua;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 30px;
+  left: 30px;
+}
+
+.child-i2 {
+  background-color: aqua;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 230px;
+  left: 230px;
+}
+
+.child-i3 {
+  background-color: aqua;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 430px;
+  left: 430px;
+}
+
+/* Desktop 9 */
+.parent-j {
+  background-color: grey;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.child-j1 {
+  background-color: aqua;
+  position: absolute;
+  width: 720px;
+  height: 1024px;
+}
+
+.child-j2 {
+  background-color: yellow;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 412px;
+  left: 620px;
+}
+
+/* Desktop 10 */
+.parent-k {
+  background-color: grey;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.child-k1 {
+  background-color: green;
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.child-k2 {
+  background-color: aqua;
+  width: 180px;
+  height: 874px;
+  position: absolute;
+  top: 150px;
+}
+
+/* Desktop 11 */
+.parent-l {
+  background-color: grey;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.child-l1 {
+  background-color: green;
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.child-l2 {
+  background-color: aqua;
+  width: 180px;
+  height: 874px;
+  position: absolute;
+  top: 150px;
+}
+
+.child-l3 {
+  background-color: green;
+  width: 100%;
+  height: 63px;
+  position: absolute;
+  bottom: 0px;
+}
+
+/* Desktop 12 */
+.parent-m {
+  background-color: grey;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.child-m1 {
+  background-color: green;
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.child-m2 {
+  background-color: aqua;
+  width: 180px;
+  height: 874px;
+  position: absolute;
+  top: 150px;
+}
+
+.child-m3 {
+  background-color: green;
+  width: 100%;
+  height: 63px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.child-m4 {
+  border: 1px solid white;
+  width: 554px;
+  height: 740px;
+  position: absolute;
+  top: 186px;
+  left: 216px;
+}
+
+.child-m5 {
+  border: 1px solid white;
+  width: 554px;
+  height: 740px;
+  position: absolute;
+  top: 186px;
+  left: 850px;
+}
+
+/* Desktop 13 */
+.parent-n {
+  background-color: grey;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.child-n1 {
+  background-color: green;
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.child-n2 {
+  background-color: aqua;
+  width: 180px;
+  height: 874px;
+  position: absolute;
+  top: 150px;
+}
+
+.child-n3 {
+  background-color: green;
+  width: 100%;
+  height: 63px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.child-n4 {
+  border: 1px solid white;
+  width: 554px;
+  height: 352px;
+  position: absolute;
+  top: 186px;
+  left: 216px;
+}
+
+.child-n5 {
+  border: 1px solid white;
+  width: 554px;
+  height: 352px;
+  position: absolute;
+  top: 186px;
+  left: 850px;
+}
+
+.child-n6 {
+  border: 1px solid white;
+  width: 554px;
+  height: 352px;
+  position: absolute;
+  top: 574px;
+  left: 216px;
+}
+
+.child-n7 {
+  border: 1px solid white;
+  width: 554px;
+  height: 352px;
+  position: absolute;
+  top: 574px;
+  left: 850px;
+}
+
+/* Desktop 14 */
+.parent-o {
+  background-color: grey;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.child-o1 {
+  background-color: green;
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.child-o3 {
+  background-color: green;
+  width: 100%;
+  height: 63px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.child-o4 {
+  border: 1px solid white;
+  width: 656px;
+  height: 160px;
+  position: absolute;
+  top: 186px;
+  left: 30px;
+}
+
+.child-o5 {
+  border: 1px solid white;
+  width: 163px;
+  height: 546px;
+  position: absolute;
+  top: 380px;
+  left: 30px;
+}
+
+.child-o6 {
+  border: 1px solid white;
+  width: 163px;
+  height: 546px;
+  position: absolute;
+  top: 380px;
+  left: 277px;
+}
+
+.child-o7 {
+  border: 1px solid white;
+  width: 163px;
+  height: 546px;
+  position: absolute;
+  top: 380px;
+  left: 523px;
+}
+
+.child-o8 {
+  border: 1px solid white;
+  width: 656px;
+  height: 160px;
+  position: absolute;
+  top: 186px;
+  left: 754px;
+}
+
+.child-o9 {
+  border: 1px solid white;
+  width: 656px;
+  height: 180px;
+  position: absolute;
+  top: 395px;
+  left: 754px;
+}
+
+.child-o10 {
+  border: 1px solid white;
+  width: 301px;
+  height: 180px;
+  position: absolute;
+  top: 611px;
+  left: 754px;
+}
+
+.child-o11 {
+  border: 1px solid white;
+  width: 301px;
+  height: 180px;
+  position: absolute;
+  top: 611px;
+  left: 1109px;
+}
+
+/* Desktop 15 */
+.parent-p {
+  background-color: grey;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.child-p1 {
+  background-color: green;
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.child-p3 {
+  background-color: green;
+  width: 100%;
+  height: 63px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.child-p4 {
+  border: 1px solid white;
+  width: 1175px;
+  height: 548px;
+  position: absolute;
+  top: 186px;
+  left: 30px;
+}
+
+.child-p5 {
+  border: 1px solid white;
+  width: 1175px;
+  height: 122px;
+  position: absolute;
+  top: 767px;
+  left: 30px;
+}
+
+.child-p6 {
+  border: 1px solid white;
+  width: 162px;
+  height: 811px;
+  position: absolute;
+  top: 150px;
+  left: 1248px;
+}
+
+.child-p7 {
+  border: 1px solid white;
+  width: 115px;
+  height: 115px;
+  position: absolute;
+  top: 222px;
+  left: 1271px;
+}
+
+.child-p8 {
+  border: 1px solid white;
+  width: 115px;
+  height: 115px;
+  position: absolute;
+  top: 360px;
+  left: 1271px;
+}
+
+.child-p9 {
+  border: 1px solid white;
+  width: 115px;
+  height: 115px;
+  position: absolute;
+  top: 498px;
+  left: 1271px;
+}
+
+.child-p10 {
+  border: 1px solid white;
+  width: 115px;
+  height: 115px;
+  position: absolute;
+  top: 636px;
+  left: 1271px;
+}
+
+.child-p11 {
+  border: 1px solid white;
+  width: 115px;
+  height: 115px;
+  position: absolute;
+  top: 774px;
+  left: 1271px;
+}
